@@ -16,7 +16,7 @@ struct Book {
 vector<Book> books;
 const string DATABASE_FILE = "library.txt";
 
-void saveDatabase() {
+/* void saveDatabase() {
     ofstream file(DATABASE_FILE);
 
     for (const auto& b : books) {
@@ -28,9 +28,21 @@ void saveDatabase() {
     }
 
     file.close();
+} */
+
+void saveDatabase() {
+    ofstream file("library.txt");
+
+    for (const auto& b : books) {
+        file << b.title << "|" 
+             << b.author << "|" 
+             << b.year << "\n";
+    }
+
+    file.close();
 }
 
-void loadDatabase() {
+/* void loadDatabase() {
     ifstream file(DATABASE_FILE);
 
     if (!file)
@@ -44,6 +56,32 @@ void loadDatabase() {
         getline(file, b.year);
         getline(file, b.genre);
         getline(file, separator);
+        books.push_back(b);
+    }
+
+    file.close();
+} */
+
+void loadDatabase() {
+    ifstream file("library.txt");
+
+    if (!file)
+        return;
+
+    string line;
+
+    while (getline(file, line)) {
+        Book b;
+        size_t pos1 = line.find('|');
+        size_t pos2 = line.find('|', pos1 + 1);
+
+        if (pos1 == string::npos || pos2 == string::npos)
+            continue; // skip bad lines
+
+        b.title = line.substr(0, pos1);
+        b.author = line.substr(pos1 + 1, pos2 - pos1 - 1);
+        b.year = line.substr(pos2 + 1);
+
         books.push_back(b);
     }
 
