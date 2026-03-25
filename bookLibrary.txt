@@ -1,0 +1,3 @@
+2|Hyperion|Dan Simmons|1990|Sci-Fi
+1|The King in Yellow|Robert W. Chambers|2021|Horror
+3|Tom's Crossing|Mark Z. Danielewski|2025|Western
