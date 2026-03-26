@@ -1,3 +1,86 @@
+27|The Complete Poetical Works of Alfred Tennyson: Complete Edition|Alfred Tennyson|1900|Poetry
+19|The Poetical Works of Alfred, Lord Tennyson from the Author's Text|Alfred, Lord Tennyson|1885|Poetry
+15|Collected Poems 1947 - 1997|Allen Ginsberg|2007|Poetry
+36|Arthur Rimbaud Complete Works|Arthur Rimbaud|2008|Poetry
+71|Tarantula|Bob Dylan|2002|Poetry
+78|Diary fo a Romantica volume 1: Lovers Forgotten|Celia Martinez|2023|Poetry
+59|Sifting Through the Madness for the Word, The Line, The Way|Charles Bukowski|2004|Poetry
+43|Run with the Hunted|Charles Bukowski|2003|Fiction
+44|Ham on Rye|Charles Bukowski|2002|Fiction
+60|On Drinking|Charles Bukowski|2019|Poetry, Fiction
+45|Post Office|Charles Bukowski|2002|Fiction
+46|Women|Charles Bukowski|2002|Fiction
+48|Factotum|Charles Bukowski|2002|Fiction
+57|The Pleasures of the Damned|Charles Bukowski|2008|Poetry
+51|Slouching Toward Nirvana|Charles Bukowski|2006|Poetry
+53|The People Look Like Flowers at Last|Charles Bukowski|2008|Poetry
+58|What Matters Most is How Well You Walk Through the Fire.|Charles Bukowski|2002|Poetry
+54|Come on In!|Charles Bukowski|2006|Poetry
+65|The Mathematics of the Breath and the Way|Charles Bukowski|2018|Non-Fiction, Writing
+55|Love is a Dog from Hell|Charles Bukowski|2003|Poetry
+47|Pulp|Charles Bukowski|2002|Fiction
+56|Essential Bukowski Poetry|Charles Bukowski|2018|Poetry
+50|The Last Night of Earth Poems|Charles Bukowski|2002|Poetry
+49|A Storm for the Living and the Dead - Uncollected and Unpublished Poems|Charles Bukowski|2017|Poetry
+52|The Continual Condition|Charles Bukowski|2010|Poetry
+12|Contemporary American Poetry: Fourth Edition|Compilation: A. Poulin. Jr.|1985|Poetry
+26|American Negro Poetry|Compilation: Arna Bontemps|1987|Poetry
+21|The Chief American Poets - Selected Poems by Bryant, Poe, Emerson,, Longfellow, Whittier, Holmes, Lowell, Whitman and Lanier|Compilation: Curtis Hidden Page, PHD|1905|Poetry
+20|Hardlines: Rough South Poetry|Compilation: Daniel Cross Turner & William Wright|2016|Poetry
+63|1001 Pearls of Buddhist Wisdom|Compilation: Desmond Biddulph|2007|Philosophy, Religion
+13|The Harvard Book of Contemporary American Poetry|Compilation: Helen Vendler|1985|Poetry
+10|A Treasury of Poems: A Collection of the World's Most Famous and Familiar Verse|Compilation: Sarah Anne Stuart|1999|Poetry
+11|Poetry of the Victorian Period: Third Edition|Compilation: Scott, Foresman and Company|1965|Poetry
+67|Aristotle on Poetry and Music|Compilation: The Liberal Arts Press|1956|Philosophy, Non-Fiction, Art
+62|The Pocket Zen Reader|Compilation: Thomas Cleary|2008|Philosophy, Religion
+69|Volume 0 Magazine, volume 11|Compilation: Volume 0 Magazine|2026|Fiction, Short Stories
+75|I Hope You Stay|Courtney Peppernell|2020|Poetry
 2|Hyperion|Dan Simmons|1990|Sci-Fi
-1|The King in Yellow|Robert W. Chambers|2021|Horror
+79|Universal Song|Darrell B. Grayson|2003|Poetry
+80|Door = Jar Magazine, Issue 30|Door is a jar magazine|2024|Poetry, Fiction, Short Stories
+16|The Complete Tales and Poems of Edgar Allen Poe|Edgar Allen Poe|2007|Poetry, Fiction
+29|The Poetry of Emily Dickinson|Emily Dickinson|2020|Poetry
+14|The Collected Poems of Frank O'Hara|Frank O'Hara|1995|Poetry
+18|The Complete Poetical Works of Henry Wadsworth Longfellow: Household Edition|Henry Wadsworth Longfellow|1903|Poetry
+72|2Fish|Jhene Aiko Efuru Chilombo|2018|Poetry
+68|Fear of Dreaming|Jim Carroll|1993|Poetry
+23|Sweet Nothings|Jim Elledge|1994|Poetry
+37|Wilderness (Volume 1)|Jim Morrison|1989|Poetry
+38|The American Night (Volume 2)|Jim Morrison|1990|Poetry
+17|The Poetical Works of John Greenleaf Whittier Volume 2|John Greenleaf Whittier|1866|Poetry
+73|Punks|John Keene|2021|Poetry
+8|The Dore Illustrated Edition of The Complete Poems of John Milton|John Milton|1936|Poetry, Drama
+33|The Rough Field|John Montague|2005|Poetry
+64|Gulliver's Travels|Jonathon Swift|1957|Fiction
+81|Indecency|Justin Phillip Reed|2018|Poetry
+6|Selected Poems of Langston Hughes|Langston Hughes|1990|Poetry
+40|Book of Longing|Leonard Cohen|2006|Poetry
+39|A Ballet of Lepers|Leonard Cohen|2022|Fiction, Short Stories
+41|The Flame|Leonard Cohen|2018|Poetry
+42|Let us Compare Mythologies|Leonard Cohen|2007|Poetry
+4|The Poems and Dramas of Lord Byron|Lord Byron|1880|Poetry, Theater
+76|Please Don't Go Before I Get Better|Madisen Kuhn|2018|Poetry
 3|Tom's Crossing|Mark Z. Danielewski|2025|Western
+74|Noon Magazine, Year 2024|Noon Magazine|2024|Fiction, Short Stories
+77|Flux|Orion Carloto|2017|Poetry
+5|Poems 1968 - 1998|Paul Muldoon|2002|Poetry
+34|Shelley's Poetry and Prose: Authoritative Texts Criticism|Percy Bysshe Shelley|1977|Poetry
+28|Come Love with Me and Be My Life - The Complete Romantic Poetry of Peter McWilliams|Peter McWilliams|1992|Poetry
+66|The Spell of the Yukon|Robert Service|1916|Poetry
+31|The Complete Poems of Robert Service|Robert Service|1949|Poetry
+1|The King in Yellow|Robert W. Chambers|2021|Horror
+84|Milk and Honey|Rupi Kaur|2015|Poetry
+9|Collected Poems of Sara Teasdale|Sara Teasdale|1968|Poetry
+22|The Poems of Sir Walter Ralegh|Sir Walter Ralegh|1962|Poetry
+30|The Complete Poems of Sir Walter Scott|Sir Walter Scott|1900|Poetry
+82|Southern Poetry Review Magazine, volume 62 number 1|Southern Poetry Review Magazine|2023|Poetry
+83|Southern Poetry Review Magazine, volume 62 number 2|Southern Poetry Review Magazine|2024|Poetry
+61|Necronomicon|Studio 31|1980|Fiction, Religion
+32|Poetry Magazine Volume 212, Number 4|The Poetry Foundation|2018|Poetry
+70|Poetry Magazine, Volume 227, Number 5|The Poetry Foundation|2026|Poetry
+86|Poetry Magazine, volume 222, number 4|The Poetry Foundation|2023|Poetry
+35|The Rose that Grew from Concrete|Tupac Amar Shakur|1999|Poetry
+85|The Collected Poems of W.B. Yeats|W.B. Yeats|1996|Poetry
+25|LVCREIVS on Life and Death|W.H. Mallock|1900|Poetry, Philosophy
+24|The Legend of Sleepy Hollow|Washington Irving|1966|Fiction, Horror
+7|The Complete Dramatic and Poetic Works of William Shakespeare Red Letter Edition|William Shakespeare|1952|Poetry, Theater

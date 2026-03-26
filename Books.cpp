@@ -48,19 +48,32 @@ void loadDatabase() {
 }
 
 void addBook() {
-    Book b;
-    b.id = nextId++;
-    cout << "\nEnter title: ";
-    getline(cin, b.title);
-    cout << "Enter author: ";
-    getline(cin, b.author);
-    cout << "Enter year: ";
-    getline(cin, b.year);
-    cout << "Enter Genre: ";
-    getline(cin, b.genre);
-    books.push_back(b);
-    saveDatabase();
-    cout << "\nBook added with ID: " << b.id << "\n";
+    while (true) {
+        Book b;
+        b.id = nextId++;
+        cout << "\nEnter title: ";
+        getline(cin, b.title);
+        cout << "Enter author: ";
+        getline(cin, b.author);
+        cout << "Enter year: ";
+        getline(cin, b.year);
+        cout << "Enter Genre: ";
+        getline(cin, b.genre);
+        books.push_back(b);
+        saveDatabase();
+        cout << "\nBook added with ID: " << b.id << "\n";
+
+        string finished;
+        while (true) {
+            cout << "Are you finished adding books?\n1. Yes\n2. No\n";
+            getline(cin, finished);
+            if (finished == "1" || finished == "Yes" || finished == "yes" || finished == "y" || finished == "Y")
+                return;
+            if (finished == "2" || finished == "No" || finished == "no" || finished == "n" || finished == "N")
+                break;
+            cout << "Invalid option. Please enter 1 or 2.\n";
+        }
+    }
 }
 
 void searchBook() {
@@ -147,6 +160,45 @@ void sortByGenre() {
         [](const Book& a, const Book& b) {return a.genre < b.genre;});
     cout << "Sorted by Genre.\n";}
 
+// Helper to escape CSV fields for Excel
+static string escapeCSV(const string& field) {
+    string out;
+    out.push_back('"');
+    for (char c : field) {
+        if (c == '"') out.push_back('"');
+        out.push_back(c);
+    }
+    out.push_back('"');
+    return out;
+}
+
+// Export books to a CSV file that Excel can open
+void exportToExcel() {
+    if (books.empty()) { cout << "\nNo books to export.\n"; return; }
+
+    string filename;
+    cout << "\nEnter filename to export (e.g. books.csv): ";
+    getline(cin, filename);
+    if (filename.empty()) filename = "books_export.csv";
+
+    ofstream out(filename);
+    if (!out) { cout << "Failed to open file for writing.\n"; return; }
+
+    // write header
+    out << "ID,Title,Author,Year,Genre\n";
+
+    for (const auto& b : books) {
+        out << b.id << ","
+            << escapeCSV(b.title) << ","
+            << escapeCSV(b.author) << ","
+            << escapeCSV(b.year) << ","
+            << escapeCSV(b.genre) << "\n";
+    }
+
+    out.close();
+    cout << "Exported " << books.size() << " books to " << filename << "\n";
+}
+
 void viewBooks() {
     if (books.empty()) {cout << "\nNo books found.\n";return;}
     int st;
@@ -181,7 +233,8 @@ void menu() {
     cout << "3. Search Books\n";
     cout << "4. Edit Book\n";
     cout << "5. Delete Book\n";
-    cout << "6. Exit\n";
+    cout << "6. Export to Excel\n";
+    cout << "7. Exit\n";
     cout << "Select option: ";}
 
 // ================= MAIN =================
@@ -200,7 +253,8 @@ int main() {
             case 3: searchBook(); break;
             case 4: editBook(); break;
             case 5: deleteBook(); break;
-            case 6:saveDatabase();cout << "Goodbye.\n";return 0;
+            case 6: exportToExcel(); break;
+            case 7: saveDatabase(); cout << "Goodbye.\n"; return 0;
             default:cout << "Invalid option.\n";}
     }
 }
